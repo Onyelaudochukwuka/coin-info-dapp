@@ -142,7 +142,7 @@ const Home: NextPage = () => {
           </span>
         </div>
         <div
-          className={`absolute z-20 w-full h-[90%] bottom-0 bg-[#300048] rounded-t-[30px] text-white transition-translate ease-in duration-300 ${
+          className={`absolute z-20 w-full h-[95%] bottom-0 bg-[#300048] rounded-t-[30px] text-white transition-translate ease-in duration-300 ${
             open ? "translate-y-0" : "translate-y-[130%]"
           }`}
         >
