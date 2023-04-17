@@ -38,7 +38,6 @@ const Home: NextPage = () => {
     
     }
   };
-  console.log(coinInfo)
   return (
     <>
       <Head>
