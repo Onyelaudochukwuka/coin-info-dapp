@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           property="twitter:url"
           content="https://coin-info-dapp.vercel.app"
         />
-        <meta name="twitter:title" content="Coin Dapp" />
+        <meta name="twitter:title" content="Coin Info Dapp" />
         <meta
           name="twitter:description"
           content="A decentralized application that gives info on a coin from it's address"
