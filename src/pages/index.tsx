@@ -46,38 +46,34 @@ const Home: NextPage = () => {
         <meta name="author" content="Onyela Udochukwuka" />
         <meta
           name="description"
-          content="The connected awards is an annual event organized by techtrend africa to award outstanding techies."
+          content="A decentralized application that gives info on a coin from it's address"
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
-          name="description"
-          content="The connected awards is an annual event organized by techtrend africa to award outstanding techies."
-        />
-        <meta property="og:url" content="https://theconnectedawards.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="The Connected Awards" />
-        <meta
           property="og:description"
-          content="The connected awards is an annual event organized by techtrend africa to award outstanding techies."
+          content="A decentralized application that gives info on a coin from it's address"
         />
         <meta
           property="og:image"
-          content="https://theconnectedawards.com/_next/image?url=%2Frainbow.ico&w=3840&q=75"
+          content="https://coin-info-dapp.vercel.app/_next/image?url=%2Frainbow.ico&w=3840&q=75"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="theconnectedawards.com" />
+        <meta
+          property="twitter:domain"
+          content="https://coin-info-dapp.vercel.app"
+        />
         <meta
           property="twitter:url"
-          content="https://theconnectedawards.com/"
+          content="https://coin-info-dapp.vercel.app"
         />
-        <meta name="twitter:title" content="The Connected Awards" />
+        <meta name="twitter:title" content="Coin Dapp" />
         <meta
           name="twitter:description"
-          content="The connected awards is an annual event organized by techtrend africa to award outstanding techies."
+          content="A decentralized application that gives info on a coin from it's address"
         />
         <meta
           name="twitter:image"
-          content="https://theconnectedawards.com/_next/image?url=%2Ffavicon.png&w=1080&q=75"
+          content="https://coin-info-dapp.vercel.app/_next/image?url=%2Ffavicon.png&w=1080&q=75"
         />
 
         <meta property="og:title" content="The connected awards" />
@@ -86,7 +82,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Coin Info Dapp" />
         <link
           rel="icon"
-          href="/http://localhost:3000/_next/image?url=%2Ffavicon.png&w=1080&q=75"
+          href="https://coin-info-dapp.vercel.app/_next/image?url=%2Ffavicon.png&w=1080&q=75"
         />
       </Head>
       <main className="bg-[#FCF8FE] h-screen overflow-y-hidden w-full flex flex-col items-center justify-between relative">

@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import * as ethers from 'ethers';
-const uniswapRouterAddress = '0xb6F43025B29196Af2dddd69b0a58AFBa079cD600'; // Uniswap Router address
 console.log();
 import type { NextApiRequest, NextApiResponse } from 'next';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
