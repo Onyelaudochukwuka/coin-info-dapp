@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           content="https://coin-info-dapp.vercel.app/_next/image?url=%2Ffavicon.png&w=1080&q=75"
         />
 
-        <meta property="og:title" content="The connected awards" />
+        <meta property="og:title" content="Coin Info Dapp" />
         <meta property="og:type" content="website" />
         <meta name="theme-color" content="#300048" />
         <meta name="description" content="Coin Info Dapp" />
