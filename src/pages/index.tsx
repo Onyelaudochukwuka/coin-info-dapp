@@ -86,7 +86,9 @@ const Home: NextPage = () => {
       </Head>
       <main className="bg-[#FCF8FE] h-screen overflow-y-hidden w-full flex flex-col items-center justify-between relative">
         <div className="flex flex-col items-center justify-center h-4/5 basis-4/5 gap-24 lg:w-auto w-10/12">
-          {loading ? (
+          {error ?
+            (<p className="text-red-800 text-xl font-black">An Error Occurred Please Refresh the app</p>)
+          :  loading ? (
             <Loading className="lg:w-36 w-24 lg:h-36 h-24" />
           ) : (
             <>
