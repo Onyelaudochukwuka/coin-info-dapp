@@ -26,7 +26,7 @@ const Home: NextPage = () => {
     try {
       setLoading(true);
       const res = await fetch(
-        `http://localhost:3000/api/${coinAddress}`
+        `/api/${coinAddress}`
       );
       const data: IData = await res.json();
       setCoinInfo(data);
