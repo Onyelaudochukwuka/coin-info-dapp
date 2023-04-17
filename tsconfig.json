@@ -18,7 +18,8 @@
     "noUncheckedIndexedAccess": true,
     "baseUrl": ".",
     "paths": {
-      "@icons/*": ["./src/icons/*"]
+      "@icons/*": ["./src/icons/*"],
+      "@src/*": ["./src/*"]
     }
   },
   "include": [
