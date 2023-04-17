@@ -121,19 +121,19 @@ const Home: NextPage = () => {
             Built By Udoka
           </h4>
           <span className="flex flex-row gap-8 items-center">
-            <Link href="https://github.com/Onyelaudochukwuka">
+            <Link target="_blank" href="https://github.com/Onyelaudochukwuka">
               <GithubIcon
                 className="w-9 h-auto transition-colors duration-300 ease-in"
                 open={open}
               />
             </Link>
-            <Link href="https://www.linkedin.com/in/udochukwukaonyela/">
+            <Link target="_blank" href="https://www.linkedin.com/in/udochukwukaonyela/">
               <LinkedInIcon
                 className="w-10 h-auto transition-colors duration-300 ease-in"
                 open={open}
               />
             </Link>
-            <Link href="https://twitter.com/FUMUDUKUS">
+            <Link target="_blank" href="https://twitter.com/FUMUDUKUS">
               <TwitterIcon
                 className="w-10 h-auto transition-colors duration-300 ease-in"
                 open={open}
